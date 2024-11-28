@@ -1,6 +1,6 @@
 numpy==2.1.0
 pandas==2.2.2
 plotly==5.24.1
-requests @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_70sm12ba9w/croot/requests_1721414707360/work
+requests
 streamlit==1.37.1
 yfinance==0.2.48
