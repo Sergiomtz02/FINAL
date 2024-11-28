@@ -328,7 +328,7 @@ with tabs[2]:
  
     
 with tabs[3]:  # Cuarta pestaña: Perfil de Inversión
-    st.header("💼 Perfil de Inversión y Portafolio 📊")
+    st.header("💼 Perfiles 📊")
 
     # Verificar si hay datos calculados
     if 'resultados_df' not in st.session_state or st.session_state.resultados_df is None:
@@ -338,7 +338,7 @@ with tabs[3]:  # Cuarta pestaña: Perfil de Inversión
 
         # Selección del perfil de inversión
         st.write("### Selecciona tu perfil:")
-        perfil = st.radio("🔍 Elige tu perfil de inversión:", ["Conservador", "Agresivo", "Óptimo"])
+        perfil = st.radio("🔍 Elige tu perfil:", ["Conservador", "Agresivo", "Óptimo"])
 
         # Explicación adicional
         with st.expander("ℹ️ ¿Cómo se calculan estos perfiles?"):
