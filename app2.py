@@ -49,7 +49,7 @@ if 'pestaña_actual' not in st.session_state:
 st.title("Allianz Patrimonial")
 
 # Crear pestañas
-tabs = st.tabs(["Información del Cliente", "Análisis de ETFs", "Resultados","Perfil de Inversión","Análisis de Correlación entre ETFs"])
+tabs = st.tabs(["Información del Cliente", "Análisis de ETFs", "Resultados","Perfiles","Análisis de Correlación entre ETFs"])
 
 # Información Personal del Cliente
 with tabs[0]:
