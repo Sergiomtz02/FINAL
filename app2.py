@@ -337,7 +337,7 @@ with tabs[3]:  # Cuarta pestaña: Perfil de Inversión
         resultados_df = st.session_state.resultados_df
 
         # Selección del perfil de inversión
-        st.write("### Selecciona tu perfil de inversión para generar un portafolio:")
+        st.write("### Selecciona tu perfil:")
         perfil = st.radio("🔍 Elige tu perfil de inversión:", ["Conservador", "Agresivo", "Óptimo"])
 
         # Explicación adicional
